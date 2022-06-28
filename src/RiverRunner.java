@@ -52,7 +52,7 @@ public class RiverRunner {
                 river.get(i).setAge(river.get(i).getAge() + 1);
                 river.get(i).setHunger(river.get(i).getHunger() - .3);
 
-                //river = checkCharacteristics(river);
+                river = checkCharacteristics(river);
 
                 if (river.get(i).getAnimaltype().equals("Big Bear")) {
                     if (river.get(i).getAge() > 50) {
